@@ -26,7 +26,7 @@
 //     );
 //   });
 
-const apiTransaction = require("./index.js");
+// const apiTransaction = require("./index.js");
 
   const FILES_TO_CACHE = [
     './',
