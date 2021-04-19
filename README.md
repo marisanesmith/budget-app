@@ -11,13 +11,12 @@
 
 ## Project Overview
 
-This application is a fully functional fitness tracker where users can log their latest workouts and keep track of their progress on the dashboard. The user will be able to see the last 7 days of workouts along with the total duration of time spent working to reach their fitness goals. 
+This application is a fully functional budget tracker app where users can add funds or subtract funds so that they can keep track of their finances. The budget tracker can save data while offline and then when back online that data will be saved to the database. 
 
-![Fitness Tracker Home Page](public/images/fitness-tracker.png)
-![Fitness Tracker Dashboard](public/images/fitness-tracker2.png)
+![Budget App Home Page](public/images/budget.png)
 
 ## Application
-[Fitness Tracker Heroku Link](https://whispering-escarpment-18429.herokuapp.com/?id=607867796dc8240015dd3ec1)
+[Budget App Heroku Link](https://pure-peak-80351.herokuapp.com)
 
 ## Installation
 
@@ -28,9 +27,9 @@ To properly run this application you will need to initialize your project by run
 * morgan
 * compression
 
-Once the dependencies have been installed you will need to run the following commands in your terminal to seed the database and begin listening on your server port.
+Once the dependencies have been installed you will need to run the following commands in your terminal to begin listening on your server port.
 
-1. npm start
+1. npm start or node server
 
 After that is complete you will need to deploy the application to Heroku or a similar hosting site to view the fitness tracker online. 
 
